@@ -37,14 +37,14 @@ commands:
     description: Gets the top balance values.
     usage: /<command> <page>
     aliases: [ebalancetop,baltop,ebaltop]
-  ban:
-    description: Bans a player.
-    usage: /<command> <player> [reason]
-    aliases: [eban]
-  banip:
-    description: Bans an IP address.
-    usage: /<command> <address>
-    aliases: [ebanip]
+#  ban:
+#    description: Bans a player.
+#    usage: /<command> <player> [reason]
+#    aliases: [eban]
+#  banip:
+#    description: Bans an IP address.
+#    usage: /<command> <address>
+#    aliases: [ebanip]
   beezooka:
     description: Throw an exploding bee at your opponent.
     usage: /<command>
@@ -77,14 +77,14 @@ commands:
     description: Opens up a cartography table.
     usage: /<command>
     aliases: [ecartographytable, carttable, ecarttable]
-  clearinventory:
-    description: Clear all items in your inventory.
-    usage: /<command> [player|*] [item[:<data>]|*|**] [amount]
-    aliases: [ci,eci,clean,eclean,clear,eclear,clearinvent,eclearinvent,eclearinventory]
-  clearinventoryconfirmtoggle:
-    description: Toggles whether you are prompted to confirm inventory clears.
-    usage: /<command>
-    aliases: [eclearinventoryconfirmtoggle, clearinventoryconfirmoff, eclearinventoryconfirmoff, clearconfirmoff, eclearconfirmoff, clearconfirmon, eclearconfirmon, clearconfirm, eclearconfirm]
+#  clearinventory:
+#    description: Clear all items in your inventory.
+#    usage: /<command> [player|*] [item[:<data>]|*|**] [amount]
+#    aliases: [ci,eci,clean,eclean,clear,eclear,clearinvent,eclearinvent,eclearinventory]
+#  clearinventoryconfirmtoggle:
+#    description: Toggles whether you are prompted to confirm inventory clears.
+#    usage: /<command>
+#    aliases: [eclearinventoryconfirmtoggle, clearinventoryconfirmoff, eclearinventoryconfirmoff, clearconfirmoff, eclearconfirmoff, clearconfirmon, eclearconfirmon, clearconfirm, eclearconfirm]
   condense:
     description: Condenses items into a more compact blocks.
     usage: /<command> [<itemname>|<id>|hand|inventory]
@@ -128,10 +128,10 @@ commands:
     description: Manages the server economy.
     usage: /<command> <give|take|set|reset> <player> <amount>
     aliases: [eeco,economy,eeconomy]
-  enchant:
-    description: Enchants the item the user is holding.
-    usage: /<command> <enchantmentname> [level]
-    aliases: [eenchant,enchantment,eenchantment]
+#  enchant:
+#    description: Enchants the item the user is holding.
+#    usage: /<command> <enchantmentname> [level]
+#    aliases: [eenchant,enchantment,eenchantment]
   enderchest:
     description: Lets you see inside an enderchest.
     usage: /<command> [player]
@@ -140,10 +140,10 @@ commands:
     description: Reloads essentials.
     usage: /<command>
     aliases: [eessentials, ess, eess, essversion]
-  exp:
-    description: Give, set, reset, or look at a players experience.
-    usage: /<command> [reset|show|set|give] [playername [amount]]
-    aliases: [eexp,xp]
+#  exp:
+#    description: Give, set, reset, or look at a players experience.
+#    usage: /<command> [reset|show|set|give] [playername [amount]]
+#    aliases: [eexp,xp]
   ext:
     description: Extinguish players.
     usage: /<command> [player]
@@ -175,11 +175,11 @@ commands:
   getpos:
     description: Get your current coordinates or those of a player.
     usage: /<command> [player]
-    aliases: [coords,egetpos,position,eposition,whereami,ewhereami,getlocation,egetlocation,getloc,egetloc]
-  give:
-    description: Give a player an item.
-    usage: /<command> <player> <item|numeric> [amount [itemmeta...]]
-    aliases: [egive]
+    aliases: [egetpos,position,eposition,whereami,ewhereami,getlocation,egetlocation,getloc,egetloc]
+#  give:
+#    description: Give a player an item.
+#    usage: /<command> <player> <item|numeric> [amount [itemmeta...]]
+#    aliases: [egive]
   god:
     description: Enables your godly powers.
     usage: /<command> [player] [on|off]
@@ -244,18 +244,18 @@ commands:
     description: Jumps to the nearest block in the line of sight.
     usage: /<command>
     aliases: [j,ej,ejump,jumpto,ejumpto]
-  kick:
-    description: Kicks a specified player with a reason.
-    usage: /<command> <player> [reason]
-    aliases: [ekick]
+#  kick:
+#    description: Kicks a specified player with a reason.
+#    usage: /<command> <player> [reason]
+#    aliases: [ekick]
   kickall:
     description: Kicks all players off the server except the issuer.
     usage: /<command> [reason]
     aliases: [ekickall]
-  kill:
-    description: Kills specified player.
-    usage: /<command> <player>
-    aliases: [ekill]
+#  kill:
+#    description: Kills specified player.
+#    usage: /<command> <player>
+#    aliases: [ekill]
   kit:
     description: Obtains the specified kit or views all available kits.
     usage: /<command> [kit] [player]
@@ -368,10 +368,10 @@ commands:
     description: Displays the username of a user based on nick.
     usage: /<command> <nickname>
     aliases: [erealname]
-  recipe:
-    description: Displays how to craft items.
-    usage: /<command> <item> [number]
-    aliases: [formula,eformula,method,emethod,erecipe,recipes,erecipes]
+#  recipe:
+#    description: Displays how to craft items.
+#    usage: /<command> <item> [number]
+#    aliases: [formula,eformula,method,emethod,erecipe,recipes,erecipes]
   remove:
     description: Removes entities in your world.
     usage: /<command> <all|tamed|named|drops|arrows|boats|minecarts|xp|paintings|itemframes|endercrystals|monsters|animals|ambient|mobs|[mobType]> [radius|world]
@@ -484,10 +484,10 @@ commands:
     description: Teleport to the highest block at your current position.
     usage: /<command>
     aliases: [etop]
-  tp:
-    description: Teleport to a player.
-    usage: /<command> <player> [otherplayer]
-    aliases: [tele,etele,teleport,eteleport,etp,tp2p,etp2p]
+#  tp:
+#    description: Teleport to a player.
+#    usage: /<command> <player> [otherplayer]
+#    aliases: [tele,etele,teleport,eteleport,etp,tp2p,etp2p]
   tpa:
     description: Request to teleport to the specified player.
     usage: /<command> <player>
@@ -548,14 +548,14 @@ commands:
     description: Spawn a tree where you are looking.
     usage: /<command> <tree|birch|redwood|redmushroom|brownmushroom|jungle|junglebush|swamp>
     aliases: [etree]
-  unban:
-    description: Unbans the specified player.
-    usage: /<command> <player>
-    aliases: [pardon,eunban,epardon]
-  unbanip:
-    description: Unbans the specified IP address.
-    usage: /<command> <address>
-    aliases: [eunbanip,pardonip,epardonip]
+#  unban:
+#    description: Unbans the specified player.
+#    usage: /<command> <player>
+#    aliases: [pardon,eunban,epardon]
+#  unbanip:
+#    description: Unbans the specified IP address.
+#    usage: /<command> <address>
+#    aliases: [eunbanip,pardonip,epardonip]
   unlimited:
     description: Allows the unlimited placing of items.
     usage: /<command> <list|item|clear> [player]
@@ -568,10 +568,10 @@ commands:
     description: List all warps or warp to the specified location.
     usage: /<command> <pagenumber|warp> [player]
     aliases: [ewarp,warps,ewarps]
-  weather:
-    description: Sets the weather.
-    usage: /<command> <storm/sun> [duration]
-    aliases: [rain,erain,sky,esky,storm,estorm,sun,esun,eweather]
+#  weather:
+#    description: Sets the weather.
+#    usage: /<command> <storm/sun> [duration]
+#    aliases: [rain,erain,sky,esky,storm,estorm,sun,esun,eweather]
   whois:
     description: Determine the username behind a nickname.
     usage: /<command> <nickname>
